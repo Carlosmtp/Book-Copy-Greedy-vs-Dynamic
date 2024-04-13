@@ -46,7 +46,12 @@ Para la solución voraz, ejecuta el siguiente comando en la raíz del proyecto. 
 
 ```bash
 $ python voraz.py
+```
 
 Para la solución exclusivamente recursiva y la solución dinámica, ejecuta el siguiente comando, que ejecutará el algoritmo para la entrada dada. Se imprimirá en consola el tiempo mínimo de la solución y el tiempo de ejecución correspondiente. Estas funciones son bastante costosas y están poco optimizadas por ahora, por lo que para entradas grandes podría tardar varios minutos (y aún no se reconstruye la solución).
+```bash
 $ python recursiva.py [filename]
+```
+```bash
 $ python dinamica.py [filename]
+```
