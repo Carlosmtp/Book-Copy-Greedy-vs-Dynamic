@@ -1,0 +1,11 @@
+10 10
+Libro1 69
+Libro2 783
+Libro3 297
+Libro4 461
+Libro5 67
+Libro6 346
+Libro7 155
+Libro8 391
+Libro9 323
+Libro10 319

@@ -1,0 +1,10 @@
+9 9
+Libro1 100 
+Libro2 200 
+Libro3 300 
+Libro4 400 
+Libro5 500 
+Libro6 100 
+Libro7 700 
+Libro8 800 
+Libro9 900
