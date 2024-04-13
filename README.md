@@ -38,3 +38,15 @@ Se espera que el programa genere un archivo de texto donde la primera línea sea
 La complejidad de cada alternativa de solución debe ser calculada y comparada con las mediciones de tiempo de ejecución tomadas para diferentes entradas y tamaños de datos. [Informe](Proyecto_FADA_1741699.pdf)
 
 Este proyecto tiene como objetivo proporcionar una implementación eficiente para resolver el problema de copia de libros, permitiendo una distribución óptima de la tarea entre múltiples escritores.
+
+
+## Instrucciones de Ejecución
+
+Para la solución voraz, ejecuta el siguiente comando en la raíz del proyecto. Este comando ejecutará la solución con las entradas de 10.txt hasta 100000.txt, generando un archivo de salida para cada una de las entradas en la misma carpeta raíz. También imprimirá en la consola cada uno de los tiempos de ejecución y generará una gráfica con esos datos.
+
+```bash
+$ python voraz.py
+
+Para la solución exclusivamente recursiva y la solución dinámica, ejecuta el siguiente comando, que ejecutará el algoritmo para la entrada dada. Se imprimirá en consola el tiempo mínimo de la solución y el tiempo de ejecución correspondiente. Estas funciones son bastante costosas y están poco optimizadas por ahora, por lo que para entradas grandes podría tardar varios minutos (y aún no se reconstruye la solución).
+$ python recursiva.py [filename]
+$ python dinamica.py [filename]
